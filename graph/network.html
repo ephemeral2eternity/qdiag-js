@@ -9,7 +9,7 @@
 
     <style type="text/css">
         #mynetwork {
-            width: 800px;
+            width: 100%;
             height: 600px;
             border: 1px solid lightgray;
         }
@@ -28,13 +28,14 @@
     var edges = null;
     var network = null;
 
-    var EDGE_LENGTH_MAIN = 150;
-    var EDGE_LENGTH_SUB = 20;
+    var EDGE_LENGTH_MAIN = 50;
+    var EDGE_LENGTH_SUB = 10;
 
     // Called when the Visualization API is loaded.
     function draw() {
         // Create a data table with nodes.
-        $.getJSON('graph.json', function (json) {
+        // var url = 'http://manage.cmu-agens.com/verify/get_net_graph_json?id=39&id=204&id=1392&id=1393&id=1402'
+        $.getJSON("graph2.json", function (json) {
             var org_nodes = json['nodes'];
             var nodes = [];
 
@@ -47,7 +48,7 @@
                 nodes.push({
                     id: i,
                     label: org_nodes[i]['name'],
-                    image: org_nodes[i]['nodeType'].concat(".png"),
+                    image: org_nodes[i]['type'].concat(".png"),
                     shape: 'image'
                 });
             }
