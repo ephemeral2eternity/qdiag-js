@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a06de04-ec9c-432b-8aba-d3689c7ea1c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph/graph2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/network.html" afterPath="$PROJECT_DIR$/graph/network.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph/graph3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph/network_graph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,32 +21,42 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="network.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="network.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/network.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="218">
+              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/graph2.json">
+      <file leaf-file-name="graph3.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/graph3.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="1538" lean-forward="false" selection-start-line="0" selection-start-column="1538" selection-end-line="0" selection-end-column="1538" />
+              <caret line="0" column="158" lean-forward="true" selection-start-line="0" selection-start-column="158" selection-end-line="0" selection-end-column="158" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph/graph.json">
+      <file leaf-file-name="sessions_graph.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/sessions_graph.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="939" lean-forward="false" selection-start-line="0" selection-start-column="235" selection-end-line="0" selection-end-column="939" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network_graph.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/network_graph.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -62,7 +72,9 @@
       <list>
         <option value="$PROJECT_DIR$/graph/graph.json" />
         <option value="$PROJECT_DIR$/graph/graph2.json" />
+        <option value="$PROJECT_DIR$/graph/graph3.json" />
         <option value="$PROJECT_DIR$/graph/network.html" />
+        <option value="$PROJECT_DIR$/graph/network_graph.html" />
       </list>
     </option>
   </component>
@@ -73,10 +85,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-22" />
-    <option name="y" value="37" />
-    <option name="width" value="1400" />
-    <option name="height" value="765" />
+    <option name="x" value="11" />
+    <option name="y" value="23" />
+    <option name="width" value="1429" />
+    <option name="height" value="802" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -93,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,6 +134,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +147,13 @@
       <recent name="$PROJECT_DIR$/graph" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.mynetwork">
+  <component name="RunManager" selected="JavaScript Debug.network_graph.html">
+    <configuration default="false" name="sessions_graph.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/qdiag-js/graph/sessions_graph.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="network_graph.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/qdiag-js/graph/network_graph.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -167,6 +185,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -192,9 +216,17 @@
     <configuration default="false" name="mynetwork" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63343/qdiag-js/graph/network.html">
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.mynetwork" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sessions_graph.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.network_graph.html" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.network_graph.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sessions_graph.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -206,32 +238,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483938380632</updated>
-      <workItem from="1483938382495" duration="3657000" />
+      <workItem from="1483938382495" duration="3716000" />
+      <workItem from="1484090524034" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3657000" />
+    <option name="totallyTimeSpent" value="4895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-22" y="37" width="1400" height="765" extended-state="0" />
+    <frame x="11" y="23" width="1429" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2538071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33729568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39970282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1971831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -247,20 +280,62 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/graph/network.html</url>
           <line>39</line>
-          <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/graph/network.html</url>
           <line>42</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/graph/network_graph.html</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/graph/network_graph.html</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/graph/network.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1538" lean-forward="false" selection-start-line="0" selection-start-column="1538" selection-end-line="0" selection-end-column="1538" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="939" lean-forward="false" selection-start-line="0" selection-start-column="235" selection-end-line="0" selection-end-column="939" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/sessions_graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graph/graph.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -277,10 +352,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graph/graph3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="158" lean-forward="true" selection-start-line="0" selection-start-column="158" selection-end-line="0" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graph/network.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="218">
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/network_graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
