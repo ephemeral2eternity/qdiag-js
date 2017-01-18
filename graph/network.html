@@ -48,6 +48,7 @@
                 nodes.push({
                     id: i,
                     label: org_nodes[i]['name'],
+                    type: org_nodes[i]['type'],
                     image: org_nodes[i]['type'].concat(".png"),
                     shape: 'image'
                 });
@@ -72,6 +73,16 @@
                 }
             };
             network = new vis.Network(container, data, options);
+            network.on('selectNode', function (params) {
+                console.log(params);
+                var nodeID = params['nodes'][0];
+                console.log(nodeID);
+                var node = nodes[nodeID];
+                console.log(node);
+                var url = "/diag/";
+                console.log(url);
+                document.location.href=url + "get_" + node['type'] + "?id=" + node['id'];
+            });
         });
     }
 </script>

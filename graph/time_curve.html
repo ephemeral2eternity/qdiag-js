@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Graph2d or Basic Example</title>
+
+    <style type="text/css">
+        body, html {
+            font-family: sans-serif;
+        }
+    </style>
+
+    <style type="text/css">
+        #timecurve {
+            width: 70%;
+            height: 400px;
+            border: 1px solid lightgray;
+        }
+    </style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
+    <link href="http://visjs.org/dist/vis.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="timecurve"></div>
+
+<script type="text/javascript">
+    Array.prototype.contains = function(obj) {
+        var i = this.length;
+        while (i--) {
+            if (this[i] == obj) {
+                return true;
+            }
+        }
+        return false;
+    };
+    var container = document.getElementById('timecurve');
+    $.getJSON("updates.json", function (json) {
+        var items = json.updates;
+        var unique_groups = [];
+        for (var i = 0; i < items.length; i ++) {
+            // items[i].label = {content: items[i].y.toString()};
+            if (unique_groups.contains(items[i].group)) {
+                continue;
+            }
+            unique_groups.push(items[i].group);
+            console.log(items[i]);
+        }
+
+        var groups = new vis.DataSet();
+        for (var j = 0; j < unique_groups.length; j ++){
+            groups.add({
+               id: unique_groups[j],
+               content: "Session " + unique_groups[j].toString()
+            });
+        }
+
+        console.log(unique_groups);
+
+        var dataset = new vis.DataSet(items);
+        var options = {
+            start: json.start,
+            end: json.end,
+            legend: true,
+            dataAxis: {left:{title:{text: "QoE updates"}}}
+        };
+        var Graph2d = new vis.Graph2d(container, dataset, groups, options);
+    });
+</script>
+</body>
+</html>
