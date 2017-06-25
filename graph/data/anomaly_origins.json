@@ -1,0 +1,7 @@
+{
+  "origin": ["Internet2", "Los Netto", "Carnegie Mellon University", "University of Washington", "Kinber"],
+  "light":[1, 2, 0, 1, 0],
+  "medium":[3, 5, 0, 0, 2],
+  "severe":[5, 7, 1, 0, 8],
+  "total":[9, 14, 1, 1, 10]
+}

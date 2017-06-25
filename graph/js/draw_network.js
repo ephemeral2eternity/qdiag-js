@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<style>
-    .link {
-        stroke: #ccc;
-    }
-    .node text {
-        pointer-events: none;
-        font: 10px sans-serif;
-    }
-</style>
-<body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
-    var width = 800,
+/**
+ * Created by Chen Wang on 3/11/2017.
+ */
+function draw_network(graph_json_file)
+{
+    var width = 600,
         height = 600;
     var svg = d3.select("body").append("svg")
         .attr("width", width)
@@ -23,7 +14,7 @@
         .linkDistance(50)
         .charge(-120)
         .size([width, height]);
-    d3.json("graph3.json", function(error, json) {
+    d3.json(graph_json_file, function(error, json) {
         console.log(json);
         if (error) throw error;
         force
@@ -40,7 +31,7 @@
             .attr("class", "node")
             .call(force.drag);
         node.append("image")
-            .attr("xlink:href", function(d) { return d.type + "-router.png"; })
+            .attr("xlink:href", function(d) { return "static/" + d.type + "-router.png"; })
             .attr("x", "-20px")
             .attr("y", "-20px")
             .attr("width", "40px")
@@ -63,7 +54,7 @@
             .attr("class", "legend")
             .attr("transform", function(d, i) { return "translate(0," + i * 45 + ")"; });
         legend.append("image")
-            .attr("xlink:href", function(d) { return d.type + "-router.png"; })
+            .attr("xlink:href", function(d) { return "static/" + d.type + "-router.png"; })
             .attr("x", width - 36)
             .attr("width", 36)
             .attr("height", 36);
@@ -75,5 +66,4 @@
             .style("text-anchor", "end")
             .text(function(d) { return d.name; });
     });
-</script>
-</body>
+}
