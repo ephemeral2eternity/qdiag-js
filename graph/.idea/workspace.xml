@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2863b3c9-f063-42b8-ba2e-845040e004dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anomaly_stats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d3_network_graph.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/anomalies.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/anomaly_origins.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/anomaly_types.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/draw_charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/draw_events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/draw_network.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/network_graph.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/anomaly_graph.json" afterPath="$PROJECT_DIR$/data/anomaly_graph.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bad-client.png" afterPath="$PROJECT_DIR$/static/bad-client.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bad-router.png" afterPath="$PROJECT_DIR$/static/bad-router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bad-server.png" afterPath="$PROJECT_DIR$/static/bad-server.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client.png" afterPath="$PROJECT_DIR$/static/client.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/good-client.png" afterPath="$PROJECT_DIR$/static/good-client.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/good-router.png" afterPath="$PROJECT_DIR$/static/good-router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/good-server.png" afterPath="$PROJECT_DIR$/static/good-server.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/graph.json" afterPath="$PROJECT_DIR$/data/graph.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/graph2.json" afterPath="$PROJECT_DIR$/data/graph2.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/graph3.json" afterPath="$PROJECT_DIR$/data/graph3.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/in-router.png" afterPath="$PROJECT_DIR$/static/in-router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/network.png" afterPath="$PROJECT_DIR$/static/network.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out-router.png" afterPath="$PROJECT_DIR$/static/out-router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/router.png" afterPath="$PROJECT_DIR$/static/router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server.png" afterPath="$PROJECT_DIR$/static/server.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/suspect-client.png" afterPath="$PROJECT_DIR$/static/suspect-client.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/suspect-router.png" afterPath="$PROJECT_DIR$/static/suspect-router.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/suspect-server.png" afterPath="$PROJECT_DIR$/static/suspect-server.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/updates.json" afterPath="$PROJECT_DIR$/data/updates.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="topology.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,25 +31,35 @@
       <file leaf-file-name="anomaly_stats.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anomaly_stats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="765">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d3_network_graph.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="d3_network_graph.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d3_network_graph.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="draw_network.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draw_network.js">
+        <entry file="file://$PROJECT_DIR$/js/draw_network.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -164,6 +145,8 @@
         <option value="$PROJECT_DIR$/anomaly_types.json" />
         <option value="$PROJECT_DIR$/network_graph.html" />
         <option value="$PROJECT_DIR$/draw_network.js" />
+        <option value="$PROJECT_DIR$/d3_network_graph.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -195,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,13 +202,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,12 +218,13 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\javascript\graph\data" />
-      <recent name="D:\GitHub\javascript\graph\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\javascript\graph" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\javascript\graph\data" />
+      <recent name="D:\GitHub\javascript\graph\js" />
+      <recent name="D:\GitHub\javascript\graph\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,22 +375,23 @@
       <workItem from="1494277952314" duration="613000" />
       <workItem from="1494278593965" duration="599000" />
       <workItem from="1498367735966" duration="332000" />
+      <workItem from="1498368602154" duration="139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64812000" />
+    <option name="totallyTimeSpent" value="64951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122229256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471489" sideWeight="0.31285623" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471489" sideWeight="0.3160228" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977462" sideWeight="0.49722" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471489" sideWeight="0.68714374" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19471489" sideWeight="0.6839772" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4937413" sideWeight="0.48955035" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -470,14 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/anomaly_origins.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anomaly_stats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -566,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_charts.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -587,7 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_events.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_events.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="96" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
@@ -617,7 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_network.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_network.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
@@ -660,7 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram.js">
+    <entry file="file://$PROJECT_DIR$/js/histogram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
@@ -732,7 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram.js">
+    <entry file="file://$PROJECT_DIR$/js/histogram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
@@ -797,7 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_charts.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_charts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="55" column="61" lean-forward="true" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
@@ -826,7 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_events.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_events.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="96" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
@@ -843,13 +820,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anomaly_stats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="765">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_network.js">
+    <entry file="file://$PROJECT_DIR$/js/draw_network.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -859,8 +836,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/d3_network_graph.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
