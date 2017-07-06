@@ -1,0 +1,245 @@
+{
+    "links": [
+        {
+            "group": "intra", 
+            "source": 6, 
+            "target": 7
+        }, 
+        {
+            "group": "intra", 
+            "source": 7, 
+            "target": 8
+        }, 
+        {
+            "group": "inter", 
+            "source": 8, 
+            "target": 9
+        }, 
+        {
+            "group": "intra", 
+            "source": 9, 
+            "target": 3
+        }, 
+        {
+            "group": "inter", 
+            "source": 3, 
+            "target": 4
+        }, 
+        {
+            "group": "intra", 
+            "source": 5, 
+            "target": 4
+        }, 
+        {
+            "group": "intra", 
+            "source": 0, 
+            "target": 1
+        }, 
+        {
+            "group": "inter", 
+            "source": 1, 
+            "target": 2
+        }, 
+        {
+            "group": "inter", 
+            "source": 3, 
+            "target": 2
+        }, 
+        {
+            "group": "inter", 
+            "source": 5, 
+            "target": 7
+        }, 
+        {
+            "group": "intra", 
+            "source": 0, 
+            "target": 10
+        }, 
+        {
+            "group": "intra", 
+            "source": 0, 
+            "target": 11
+        }, 
+        {
+            "group": "intra", 
+            "source": 7, 
+            "target": 12
+        }, 
+        {
+            "group": "intra", 
+            "source": 5, 
+            "target": 13
+        }
+    ], 
+    "nodes": [
+        {
+            "id":0,
+            "as": 17, 
+            "group": "suspect", 
+            "orgid": 8, 
+            "label": "AS 17@(40.425900,-86.908100)", 
+            "latitude": "40.425900", 
+            "longitude": "-86.908100", 
+            "name": "Purdue University", 
+            "qoe": 0.84546, 
+            "nettype": "access",
+            "type":"network"
+        }, 
+        {
+            "id":1,
+            "as": 17, 
+            "group": "suspect", 
+            "orgid": 9, 
+            "label": "AS 17@(40.368900,-86.877400)", 
+            "latitude": "40.368900", 
+            "longitude": "-86.877400", 
+            "name": "Purdue University", 
+            "qoe": 0.84546, 
+            "nettype": "access",
+            "type":"network"
+        }, 
+        {
+            "id":2,
+            "as": 19782, 
+            "group": "suspect", 
+            "orgid": 10, 
+            "label": "AS 19782@(39.249900,-86.455500)", 
+            "latitude": "39.249900", 
+            "longitude": "-86.455500", 
+            "name": "Indiana University", 
+            "qoe": 0.84546, 
+            "nettype": "transit",
+            "type":"network"
+        }, 
+        {
+            "id":3,
+            "as": 2381, 
+            "group": "good", 
+            "orgid": 6, 
+            "label": "AS 2381@(43.118400,-89.520700)", 
+            "latitude": "43.118400", 
+            "longitude": "-89.520700", 
+            "name": "WiscNet", 
+            "qoe": 2.709134018691589, 
+            "nettype": "transit",
+            "type":"network"
+        }, 
+        {
+            "id":4,
+            "as": 15133, 
+            "group": "good", 
+            "orgid": 7, 
+            "label": "AS 15133@(37.751000,-97.822000)", 
+            "latitude": "37.751000", 
+            "longitude": "-97.822000", 
+            "name": "MCI Communications Services, Inc. d/b/a Verizon Business", 
+            "qoe": 3.2674750350631134, 
+            "nettype": "cloud",
+            "type":"network"
+        }, 
+        {
+            "id":5,
+            "as": 15133, 
+            "group": "good", 
+            "orgid": 2, 
+            "label": "AS 15133@(39.018000,-77.539000)", 
+            "latitude": "39.018000", 
+            "longitude": "-77.539000", 
+            "name": "MCI Communications Services, Inc. d/b/a Verizon Business", 
+            "qoe": 3.1387801346801347, 
+            "nettype": "cloud",
+            "type":"network"
+        }, 
+        {
+            "id":6,
+            "as": 5078, 
+            "group": "good", 
+            "orgid": 1, 
+            "label": "AS 5078@(36.115600,-97.058400)", 
+            "latitude": "36.115600", 
+            "longitude": "-97.058400", 
+            "name": "Oklahoma Network for Education Enrichment and", 
+            "qoe": 4.9999, 
+            "nettype": "access",
+            "type":"network"
+        }, 
+        {
+            "id":7,
+            "as": 5078, 
+            "group": "good", 
+            "orgid": 3, 
+            "label": "AS 5078@(36.093700,-96.987500)", 
+            "latitude": "36.093700", 
+            "longitude": "-96.987500", 
+            "name": "Oklahoma Network for Education Enrichment and", 
+            "qoe": 4.9999, 
+            "nettype": "access",
+            "type":"network"
+        }, 
+        {
+            "id":8,
+            "as": 5078, 
+            "group": "good", 
+            "orgid": 4, 
+            "label": "AS 5078@(35.476200,-97.503300)", 
+            "latitude": "35.476200", 
+            "longitude": "-97.503300", 
+            "name": "Oklahoma Network for Education Enrichment and", 
+            "qoe": 4.9999, 
+            "nettype": "access",
+            "type":"network"
+        }, 
+        {
+            "id":9,
+            "as": 2381, 
+            "group": "good", 
+            "orgid": 5, 
+            "label": "AS 2381@(44.900200,-90.019200)", 
+            "latitude": "44.900200", 
+            "longitude": "-90.019200", 
+            "name": "WiscNet", 
+            "qoe": 4.9999, 
+            "nettype": "transit",
+            "type":"network"
+        },
+        {
+            "id":10,
+            "group": "suspect", 
+            "orgid": 11, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "planetlab2.cs.purdue.edu", 
+            "qoe": 0.9049034188034188, 
+            "type": "client", 
+            "user_id": 2
+        },
+        {
+            "id":11,
+            "group": "suspect", 
+            "orgid": 34, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "planetlab1.cs.purdue.edu", 
+            "qoe": 0.7581602510460251, 
+            "type": "client", 
+            "user_id": 6
+        },
+        {
+            "id":12,
+            "group": "good", 
+            "orgid": 1, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "planetlab1.cs.okstate.edu", 
+            "qoe": 4.9999, 
+            "type": "client", 
+            "user_id": 1
+        },
+        {
+            "id":13,
+            "group": "good", 
+            "orgid": 2, 
+            "label": "server:72.21.81.200", 
+            "name": "72.21.81.200", 
+            "qoe": 3.1387801346801347, 
+            "type": "server"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "links": [
+        {
+            "group": "suspect", 
+            "source": 15, 
+            "target": 16
+        }, 
+        {
+            "group": "suspect", 
+            "source": 17, 
+            "target": 16
+        }, 
+        {
+            "group": "suspect", 
+            "source": 17, 
+            "target": 18
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 19
+        }, 
+        {
+            "group": "suspect", 
+            "source": 19, 
+            "target": 9
+        }, 
+        {
+            "group": "suspect", 
+            "source": 11, 
+            "target": 10
+        }, 
+        {
+            "group": "suspect", 
+            "source": 11, 
+            "target": 12
+        }, 
+        {
+            "group": "suspect", 
+            "source": 12, 
+            "target": 13
+        }, 
+        {
+            "group": "suspect", 
+            "source": 7, 
+            "target": 13
+        }, 
+        {
+            "group": "suspect", 
+            "source": 7, 
+            "target": 14
+        }, 
+        {
+            "group": "good", 
+            "source": 7, 
+            "target": 6
+        }, 
+        {
+            "group": "suspect", 
+            "source": 8, 
+            "target": 14
+        }, 
+        {
+            "group": "suspect", 
+            "source": 8, 
+            "target": 9
+        }, 
+        {
+            "group": "suspect", 
+            "source": 8, 
+            "target": 7
+        }, 
+        {
+            "group": "good", 
+            "source": 0, 
+            "target": 1
+        }, 
+        {
+            "group": "good", 
+            "source": 2, 
+            "target": 1
+        }, 
+        {
+            "group": "good", 
+            "source": 2, 
+            "target": 3
+        }, 
+        {
+            "group": "good", 
+            "source": 4, 
+            "target": 3
+        }, 
+        {
+            "group": "good", 
+            "source": 4, 
+            "target": 5
+        }, 
+        {
+            "group": "good", 
+            "source": 4, 
+            "target": 9
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 6
+        }
+    ], 
+    "nodes": [
+        {
+            "group": "suspect", 
+            "id": 95, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "orgname": "planetlab4.mini.pw.edu.pl",
+            "name": "A", 
+            "qoe": 4.786012121212122, 
+            "type": "client", 
+            "user_id": 13
+        }, 
+        {
+            "group": "suspect", 
+            "id": 96, 
+            "label": "12464,52.229800,21.011800", 
+            "orgname": "dlink-dgs6604-008.mini.pw.edu.pl", 
+            "network_id": 39, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 97, 
+            "label": "12464,52.233300,21.016700", 
+            "orgname": "mini-coi.rtr.pw.edu.pl", 
+            "network_id": 40, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 98, 
+            "label": "12464,52.233300,21.016700", 
+            "orgname": "194.29.132.164", 
+            "network_id": 40, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 99, 
+            "label": "1887,52.245700,20.949000", 
+            "orgname": "pw-r1-ge2-0-8-501.warman.nask.pl", 
+            "network_id": 41, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 101, 
+            "label": "8501,52.255500,16.742400", 
+            "orgname": "z-nask.poznan-gw3.10Gb.rtr.pionier.gov.pl", 
+            "network_id": 42, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 103, 
+            "label": "21320,51.496400,-0.122400", 
+            "orgname": "pionier-ias-geant-gw-1.poz.pl.geant.net", 
+            "network_id": 16, 
+            "qoe": 4.786012121212122, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 81, 
+            "label": "20965,50.115500,8.684200", 
+            "orgname": "google.mx1.fra.de.geant.net", 
+            "network_id": 34, 
+            "qoe": 4.9576347305389215, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 83, 
+            "label": "15133,50.116700,8.683300", 
+            "orgname": "192.229.134.89", 
+            "network_id": 36, 
+            "qoe": 4.966606132075471, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 2, 
+            "label": "server:93.184.221.200", 
+            "orgname": "93.184.221.200", 
+            "name": "S",
+            "qoe": 4.98283319349764, 
+            "type": "server"
+        }, 
+        {
+            "group": "good", 
+            "id": 77, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "orgname": "planetlab2.cesnet.cz", 
+            "name":"B",
+            "qoe": 4.9999, 
+            "type": "client", 
+            "user_id": 9
+        }, 
+        {
+            "group": "good", 
+            "id": 78, 
+            "label": "2852,50.763900,15.065300", 
+            "orgname": "195.113.161.65", 
+            "network_id": 31, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 79, 
+            "label": "2852,50.084800,14.411200", 
+            "orgname": "195.113.235.89", 
+            "network_id": 32, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 80, 
+            "label": "21320,50.088000,14.420800", 
+            "orgname": "cesnet-ias-geant-gw.pra.cz.geant.net", 
+            "network_id": 33, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 82, 
+            "label": "51531,50.116700,8.683300", 
+            "orgname": "ae31.core1.fra.edgecastcdn.net", 
+            "network_id": 35, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 1, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "orgname": "onelab1.info.ucl.ac.be", 
+            "name": "C",
+            "qoe": 4.999899999999999, 
+            "type": "client", 
+            "user_id": 1
+        }, 
+        {
+            "group": "good", 
+            "id": 3, 
+            "label": "2611,50.883300,4.700000", 
+            "orgname": "CtStevin.sri.ucl.ac.be", 
+            "network_id": 1, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 4, 
+            "label": "2611,50.883300,4.700000", 
+            "orgname": "CtCarnoy.sri.ucl.ac.be", 
+            "network_id": 1, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 5, 
+            "label": "2611,50.483300,4.416700", 
+            "orgname": "r2.lln.belnet.net", 
+            "network_id": 3, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 6, 
+            "label": "1200,52.350000,4.916700", 
+            "orgname": "80.249.209.162", 
+            "network_id": 4, 
+            "qoe": 4.999899999999999, 
+            "type": "router"
+        }
+    ]
+}
