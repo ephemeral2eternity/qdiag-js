@@ -96,6 +96,9 @@ function drawAnomalyNetworkGraph(url) {
                     cid: org_nodes[i]['id'],
                     // label: "QoE Score: " + org_nodes[i]["qs"] + "\nName: " + org_nodes[i]['name'],
                     label: org_nodes[i]['name'],
+                    font: {
+                        "size":40
+                    },
                     image: "static/" + org_nodes[i]['group'] + "-" + org_nodes[i]['type'] + ".png",
                     shape: 'image'
                 });

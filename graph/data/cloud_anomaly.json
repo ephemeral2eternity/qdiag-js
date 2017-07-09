@@ -1,0 +1,748 @@
+{
+    "links": [
+        {
+            "group": "good", 
+            "source": 23, 
+            "target": 22
+        }, 
+        {
+            "group": "suspect", 
+            "source": 9, 
+            "target": 1
+        }, 
+        {
+            "group": "suspect", 
+            "source": 23, 
+            "target": 24
+        }, 
+        {
+            "group": "good", 
+            "source": 0, 
+            "target": 1
+        }, 
+        {
+            "group": "suspect", 
+            "source": 23, 
+            "target": 39
+        }, 
+        {
+            "group": "good", 
+            "source": 31, 
+            "target": 1
+        }, 
+        {
+            "group": "suspect", 
+            "source": 10, 
+            "target": 1
+        }, 
+        {
+            "group": "suspect", 
+            "source": 24, 
+            "target": 25
+        }, 
+        {
+            "group": "good", 
+            "source": 2, 
+            "target": 1
+        }, 
+        {
+            "group": "good", 
+            "source": 33, 
+            "target": 32
+        }, 
+        {
+            "group": "suspect", 
+            "source": 10, 
+            "target": 11
+        }, 
+        {
+            "group": "good", 
+            "source": 2, 
+            "target": 3
+        }, 
+        {
+            "group": "good", 
+            "source": 34, 
+            "target": 33
+        }, 
+        {
+            "group": "suspect", 
+            "source": 26, 
+            "target": 25
+        }, 
+        {
+            "group": "suspect", 
+            "source": 11, 
+            "target": 12
+        }, 
+        {
+            "group": "good", 
+            "source": 4, 
+            "target": 3
+        }, 
+        {
+            "group": "good", 
+            "source": 35, 
+            "target": 34
+        }, 
+        {
+            "group": "suspect", 
+            "source": 26, 
+            "target": 27
+        }, 
+        {
+            "group": "suspect", 
+            "source": 13, 
+            "target": 12
+        }, 
+        {
+            "group": "suspect", 
+            "source": 4, 
+            "target": 27
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 4
+        }, 
+        {
+            "group": "good", 
+            "source": 36, 
+            "target": 35
+        }, 
+        {
+            "group": "suspect", 
+            "source": 14, 
+            "target": 13
+        }, 
+        {
+            "group": "good", 
+            "source": 36, 
+            "target": 37
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 29
+        }, 
+        {
+            "group": "suspect", 
+            "source": 15, 
+            "target": 14
+        }, 
+        {
+            "group": "suspect", 
+            "source": 40, 
+            "target": 27
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 8
+        }, 
+        {
+            "group": "good", 
+            "source": 29, 
+            "target": 28
+        }, 
+        {
+            "group": "good", 
+            "source": 4, 
+            "target": 37
+        }, 
+        {
+            "group": "good", 
+            "source": 8, 
+            "target": 28
+        }, 
+        {
+            "group": "suspect", 
+            "source": 15, 
+            "target": 16
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 40
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 4
+        }, 
+        {
+            "group": "suspect", 
+            "source": 17, 
+            "target": 16
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 42
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 19
+        }, 
+        {
+            "group": "suspect", 
+            "source": 42, 
+            "target": 20
+        }, 
+        {
+            "group": "suspect", 
+            "source": 19, 
+            "target": 20
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 17
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 19
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 38
+        }, 
+        {
+            "group": "good", 
+            "source": 7, 
+            "target": 38
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 43
+        }, 
+        {
+            "group": "suspect", 
+            "source": 43, 
+            "target": 20
+        }, 
+        {
+            "group": "good", 
+            "source": 23, 
+            "target": 30
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 4
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 43
+        }, 
+        {
+            "group": "good", 
+            "source": 7, 
+            "target": 8
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 21
+        }, 
+        {
+            "group": "good", 
+            "source": 5, 
+            "target": 6
+        }, 
+        {
+            "group": "suspect", 
+            "source": 21, 
+            "target": 20
+        }, 
+        {
+            "group": "good", 
+            "source": 7, 
+            "target": 6
+        }, 
+        {
+            "group": "suspect", 
+            "source": 18, 
+            "target": 40
+        }, 
+        {
+            "group": "good", 
+            "source": 40, 
+            "target": 37
+        }, 
+        {
+            "group": "good", 
+            "source": 6, 
+            "target": 28
+        }, 
+        {
+            "group": "suspect", 
+            "source": 41, 
+            "target": 44
+        }, 
+        {
+            "group": "suspect", 
+            "source": 44, 
+            "target": 20
+        }, 
+        {
+            "group": "good", 
+            "source": 7, 
+            "target": 29
+        }
+    ], 
+    "nodes": [
+        {
+            "group": "suspect", 
+            "id": 4, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "B1", 
+            "orgname": "planetlab1.cs.uoregon.edu", 
+            "qoe": 1.2355918367346939, 
+            "type": "client", 
+            "user_id": 6
+        }, 
+        {
+            "group": "good", 
+            "id": 17, 
+            "label": "3582,44.0,-123.1", 
+            "name": "", 
+            "network_id": 4, 
+            "orgname": "vl-8.uonet1-gw.uoregon.edu", 
+            "qoe": 2.458658219178082, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 23, 
+            "label": "3582,44.0,-123.1", 
+            "name": "", 
+            "network_id": 4, 
+            "orgname": "2.bundle-ether10.uonet10-gw.uoregon.edu", 
+            "qoe": 1.2315760204081634, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 25, 
+            "label": "11537,44.6,-123.3", 
+            "name": "", 
+            "network_id": 10, 
+            "orgname": "198.32.165.253", 
+            "qoe": 1.2315760204081634, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 31, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-72-0.ibr02.stb.ntwk.msn.net", 
+            "qoe": 2.646105784061697, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 35, 
+            "label": "8075,37.3,-121.9", 
+            "name": "", 
+            "network_id": 5, 
+            "orgname": "be-4-0.ibr01.bay.ntwk.msn.net", 
+            "qoe": 1.262651224489796, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 54, 
+            "label": "8075,37.3,-121.9", 
+            "name": "", 
+            "network_id": 5, 
+            "orgname": "ae61-0.bay-96c-1a.ntwk.msn.net", 
+            "qoe": 1.2382690476190477, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 12, 
+            "label": "server:104.40.81.189", 
+            "name": "S1", 
+            "orgname": "cache-01.cmu-agens.com", 
+            "qoe": 1.286045238095238, 
+            "type": "server"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 42, 
+            "label": "8075,37.3,-121.9", 
+            "name": "", 
+            "network_id": 5, 
+            "orgname": "ae65-0.by2-96c-1a.ntwk.msn.net", 
+            "qoe": 1.2714239795918367, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 7, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "B3", 
+            "orgname": "planetlab4.cs.uoregon.edu", 
+            "qoe": 4.963951041666667, 
+            "type": "client", 
+            "user_id": 4
+        }, 
+        {
+            "group": "good", 
+            "id": 20, 
+            "label": "3582,44.0,-123.1", 
+            "name": "", 
+            "network_id": 4, 
+            "orgname": "128.223.2.9", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 24, 
+            "label": "11537,44.6,-123.3", 
+            "name": "", 
+            "network_id": 10, 
+            "orgname": "internet2-re1-gw.oregon-gigapop.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 30, 
+            "label": "11537,44.6,-123.3", 
+            "name": "", 
+            "network_id": 10, 
+            "orgname": "et-4-0-0.10.rtr.wilc.net.internet2.edu", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 33, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae19-0.lax-96cbe-1b.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 37, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-62-0.ibr01.lax03.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 41, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-4-0.ibr01.by2.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 43, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-3-0.ibr01.bay.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 45, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-4-0.ibr02.stb.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 49, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "104.44.4.102", 
+            "qoe": 4.987917013888889, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 47, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae81-0.cys04-96cbe-1a.ntwk.msn.net", 
+            "qoe": 4.987917013888889, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 2, 
+            "label": "server:52.183.113.234", 
+            "name": "S3", 
+            "orgname": "cache-03.cmu-agens.com", 
+            "qoe": 4.990912760416667, 
+            "type": "server"
+        }, 
+        {
+            "group": "good", 
+            "id": 53, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae73-0.cys04-96cbe-1c.ntwk.msn.net", 
+            "qoe": 4.963951041666667, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 3, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "A2", 
+            "orgname": "planetlab02.cs.washington.edu", 
+            "qoe": 1.2275602040816327, 
+            "type": "client", 
+            "user_id": 2
+        }, 
+        {
+            "group": "good", 
+            "id": 10, 
+            "label": "73,47.7,-122.3", 
+            "name": "", 
+            "network_id": 1, 
+            "orgname": "acar-atg-02-vlan77.cac.washington.edu", 
+            "qoe": 3.1003708762886597, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 14, 
+            "label": "73,47.7,-122.3", 
+            "name": "", 
+            "network_id": 1, 
+            "orgname": "lo0--1.uwcr-ads-1.infra.washington.edu", 
+            "qoe": 3.1003708762886597, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 21, 
+            "label": "101,47.6,-122.3", 
+            "name": "", 
+            "network_id": 9, 
+            "orgname": "ae0--4001.icar-sttl1-1.infra.pnw-gigapop.net", 
+            "qoe": 3.1003708762886597, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 29, 
+            "label": "226,47.6,-122.3", 
+            "name": "", 
+            "network_id": 11, 
+            "orgname": "ae0--706.icar-sttl1-2.infra.pnw-gigapop.net", 
+            "qoe": 3.1003708762886597, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 34, 
+            "label": "226,47.6,-122.3", 
+            "name": "", 
+            "network_id": 11, 
+            "orgname": "microsoft-1-lo-jmb-706.sttlwa.pacificwave.net", 
+            "qoe": 3.1003708762886597, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 6, 
+            "label": "server:13.64.151.188", 
+            "name": "S2", 
+            "orgname": "cache-02.cmu-agens.com", 
+            "qoe": 1.2275602040816327, 
+            "type": "server"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 40, 
+            "label": "8075,37.3,-121.9", 
+            "name": "", 
+            "network_id": 5, 
+            "orgname": "ae66-0.by2-96c-1b.ntwk.msn.net", 
+            "qoe": 1.275336394557823, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 5, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "A1", 
+            "orgname": "planetlab01.cs.washington.edu", 
+            "qoe": 1.2516551020408162, 
+            "type": "client", 
+            "user_id": 9
+        }, 
+        {
+            "group": "suspect", 
+            "id": 9, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "B2", 
+            "orgname": "planetlab3.cs.uoregon.edu", 
+            "qoe": 1.2275602040816327, 
+            "type": "client", 
+            "user_id": 5
+        }, 
+        {
+            "group": "suspect", 
+            "id": 18, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "C1", 
+            "orgname": "planetlab1.postel.org", 
+            "qoe": 1.3708887755102042, 
+            "type": "client", 
+            "user_id": 7
+        }, 
+        {
+            "group": "suspect", 
+            "id": 22, 
+            "label": "4,34.1,-118.2", 
+            "name": "", 
+            "network_id": 8, 
+            "orgname": "206.117.37.1", 
+            "qoe": 3.1666881443298966, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 27, 
+            "label": "4,34.1,-118.2", 
+            "name": "", 
+            "network_id": 8, 
+            "orgname": "198.32.16.81", 
+            "qoe": 3.1666881443298966, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 32, 
+            "label": "2153,33.8,-118.0", 
+            "name": "", 
+            "network_id": 12, 
+            "orgname": "lax-hpr.losnettos-hpr.cenic.net", 
+            "qoe": 3.1666881443298966, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 36, 
+            "label": "2153,33.8,-118.0", 
+            "name": "", 
+            "network_id": 12, 
+            "orgname": "hpr-svl-hpr3--lax-hpr3-100ge.cenic.net", 
+            "qoe": 3.1666881443298966, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 38, 
+            "label": "101,47.6,-122.3", 
+            "name": "", 
+            "network_id": 9, 
+            "orgname": "microsoft-1-is-jmb-778.sttlwa.pacificwave.net", 
+            "qoe": 3.1666881443298966, 
+            "type": "router"
+        }, 
+        {
+            "group": "suspect", 
+            "id": 50, 
+            "label": "8075,37.3,-121.9", 
+            "name": "", 
+            "network_id": 5, 
+            "orgname": "ae62-0.bay-96c-1b.ntwk.msn.net", 
+            "qoe": 1.3708887755102042, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 1, 
+            "label": "(Desktop, Microsoft Windows 10, v1.0, Chrome)", 
+            "name": "A3", 
+            "orgname": "planetlab03.cs.washington.edu", 
+            "qoe": 4.9999, 
+            "type": "client", 
+            "user_id": 1
+        }, 
+        {
+            "group": "good", 
+            "id": 39, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-62-0.ibr01.stb.ntwk.msn.net", 
+            "qoe": 4.9999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 44, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "be-2-0.ibr01.co1.ntwk.msn.net", 
+            "qoe": 4.9999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 46, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae63-0.cys04-96cbe-1c.ntwk.msn.net", 
+            "qoe": 4.9999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 52, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae62-0.cys04-96cbe-1b.ntwk.msn.net", 
+            "qoe": 4.9999, 
+            "type": "router"
+        }, 
+        {
+            "group": "good", 
+            "id": 55, 
+            "label": "8075,47.7,-122.1", 
+            "name": "", 
+            "network_id": 3, 
+            "orgname": "ae74-0.cys04-96cbe-1d.ntwk.msn.net", 
+            "qoe": 4.9999, 
+            "type": "router"
+        }
+    ]
+}

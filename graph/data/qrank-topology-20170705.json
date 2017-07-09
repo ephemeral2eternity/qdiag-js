@@ -1,0 +1,246 @@
+{
+  "links": [
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 5,
+      "target": 20
+    },
+    {
+      "source": 6,
+      "target": 0
+    },
+    {
+      "source": 3,
+      "target": 7
+    },
+    {
+      "source": 10,
+      "target": 8
+    },
+    {
+      "source": 11,
+      "target": 20
+    },
+    {
+      "source": 14,
+      "target": 12
+    },
+    {
+      "source": 15,
+      "target": 12
+    },
+    {
+      "source": 16,
+      "target": 0
+    },
+    {
+      "source": 17,
+      "target": 0
+    },
+    {
+      "source": 18,
+      "target": 8
+    },
+    {
+      "source": 19,
+      "target": 8
+    },
+    {
+      "source": 12,
+      "target": 13
+    },
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 13
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 8,
+      "target": 9
+    },
+    {
+      "source": 3,
+      "target": 9
+    },
+    {
+      "source": 3,
+      "target": 20
+    }
+  ],
+  "nodes": [
+    {
+      "id":0,
+      "as": 73,
+      "orgid": 73,
+      "orgname": "University of Washington",
+      "name": "Campus network A",
+      "type": "isp"
+    },
+    {
+      "id":1,
+      "as": 101,
+      "orgid": 101,
+      "orgname": "University of Washington",
+      "name": "Transit network T1",
+      "type": "isp"
+    },
+    {
+      "id":2,
+      "as": 226,
+      "orgid": 226,
+      "orgname": "Los Nettos",
+      "name": "Transit network T2",
+      "type": "isp"
+    },
+    {
+      "id":3,
+      "as": 8075,
+      "orgid": 8075,
+      "orgname": "Microsoft Corporation",
+      "name": "Cloud network 2",
+      "type": "isp"
+    },
+    {
+      "id":4,
+      "orgid": 1,
+      "orgname": "planetlab01.cs.washington.edu",
+      "name": "A1",
+      "type": "user"
+    },
+    {
+      "id":5,
+      "orgid": 2,
+      "orgname": "cache-01.cmu-agens.com",
+      "name": "S1",
+      "type": "server"
+    },
+    {
+      "id":6,
+      "orgid": 2,
+      "orgname": "planetlab03.cs.washington.edu",
+      "name": "A3",
+      "type": "user"
+    },
+    {
+      "id":7,
+      "orgid": 12,
+      "orgname": "cache-03.cmu-agens.com",
+      "name": "S3",
+      "type": "server"
+    },
+    {
+      "id":8,
+      "as": 3582,
+      "orgid": 3582,
+      "orgname": "University of Oregon",
+      "name":"Campus network B",
+      "type": "isp"
+    },
+    {
+      "id":9,
+      "as": 11537,
+      "orgid": 11537,
+      "orgname": "EP.net LLC.",
+      "name":"Transit network T3",
+      "type": "isp"
+    },
+    {
+      "id":10,
+      "orgid": 3,
+      "orgname": "planetlab3.cs.uoregon.edu",
+      "name":"B2",
+      "type": "user"
+    },
+    {
+      "id":11,
+      "orgid": 17,
+      "orgname": "cache-02.cmu-agens.com",
+      "name":"S2",
+      "type": "server"
+    },
+    {
+      "id":12,
+      "as": 4,
+      "orgid": 4,
+      "orgname": "University of Southern California",
+      "name":"Campus network C",
+      "type": "isp"
+    },
+    {
+      "id":13,
+      "as": 2153,
+      "orgid": 2153,
+      "orgname": "California State University, Office of the Chancellor",
+      "name": "Transit network T4",
+      "type": "isp"
+    },
+    {
+      "id":14,
+      "orgid": 4,
+      "orgname": "planetlab4.postel.org",
+      "name": "C2",
+      "type": "user"
+    },
+    {
+      "id":15,
+      "orgid": 5,
+      "orgname": "planetlab1.postel.org",
+      "name":"C1",
+      "type": "user"
+    },
+    {
+      "id":16,
+      "orgid": 6,
+      "orgname": "planetlab04.cs.washington.edu",
+      "name":"A4",
+      "type": "user"
+    },
+    {
+      "id":17,
+      "orgid": 7,
+      "orgname": "planetlab02.cs.washington.edu",
+      "name":"A2",
+      "type": "user"
+    },
+    {
+      "id":18,
+      "orgid": 8,
+      "orgname": "planetlab4.cs.uoregon.edu",
+      "name": "B3",
+      "type": "user"
+    },
+    {
+      "id":19,
+      "orgid": 9,
+      "orgname": "planetlab1.cs.uoregon.edu",
+      "name": "B1",
+      "type": "user"
+    },
+    {
+      "id":20,
+      "as": 8075,
+      "orgid": 8075,
+      "orgname": "Microsoft Corporation",
+      "name": "Cloud network 1",
+      "type": "isp"
+    }
+  ]
+}
